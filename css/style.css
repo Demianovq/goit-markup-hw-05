@@ -612,12 +612,6 @@ address {
 	flex-wrap: wrap;
 }
 
-.projects-link:hover,
-.projects-link:focus {
-	display: block;
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .projects-item {
 	width: 370px;
 	margin-right: 30px;
@@ -678,6 +672,12 @@ address {
 .projects-item:focus .overlay-thumb {
 	transform: translateY(0%);
 	opacity: 1;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.projects-item:hover,
+.projects-item:focus {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .overlay-text {
